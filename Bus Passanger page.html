@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TRAVEL TICKET|PASSANGER</title>
+    <center><img class="logoimg" src="./Source/PIC/Logo.png" alt="Logo" width="200px" height="200px"></center>
+    <style>
+         button{
+            align-items: center;
+            background-color:skyblue;
+            font-weight: bolder;
+            font-family: 'Times New Roman';
+            width: 290px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(116, 197, 224);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(4, 191, 253);
+        }
+        body{
+            background-image: url(./Source/PIC/20856827_6346166.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+       
+        .overall{
+            align-items: center;
+            border: 2px black solid;
+            height: 550px;
+            width: 800px;
+            border-radius: 15px;
+            background: linear-gradient(to top,rgba(245, 242, 242, 0.5)50%,rgba(245, 243, 243, 0.5)50%);
+            border-radius: 15px;
+            position: relative;
+            left: 26%;
+            bottom: 8%;
+        }
+        .I1{
+            height: 40px;
+            width: 290px;
+            text-align: center;
+            font-size: large;
+            font-style:;
+        }
+        
+        td{
+            height: 40px;
+            width: 290px;
+            font-size: large;
+            text-align: left;
+            
+        }
+
+        .I2{
+            height: 40px;
+            width: 294px;
+            text-align: center;
+            color: gray;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="overall">
+
+        <div class="ALL"><center>
+            <table>
+                <caption><h3>FILL PASSANGER DETAILS </h3></caption>
+                <tbody>
+                    <tr>
+                        <td><label for="Fname">NAME *</label></td>
+                        <td><input class="I1" type="text" placeholder="Enter Name" name="Fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Ag">AGE</label></td>
+                        <td><input class="I1" type="number" placeholder="Enter Age" name="Ag"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">D.O.B *</label></td>
+                        <td><input class="I2" type="date" name="dob"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender *</td>
+                        <td><input type="radio" name="Gender">Male
+                            <input type="radio" name="Gender">Female
+                            <input type="radio" name="Gender">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Anum">AADHAAR <br>NUMBER *</label></td>
+                        <td><input class="I1" type="number" placeholder="Enter aadhar number" name="Anum"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Ph">PHONE <br> NUMBER *</label></td>
+                        <td><input class="I1" type="number" placeholder="Enter Ph.number" name="Ph"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </center></div>
+        <!-- REST AND ADD PASSANGER BUTTON -->
+    
+        </form></center>
+        <dir><center><form action="./Bus Passanger page.html">
+            <button><b>RESET</b></button> <button><b>ADD MORE PASSANGER</b></button>
+        </form></center></dir>
+    
+        <br>
+    
+        <!--SUBMIT BUTTON -->
+    
+        <div><center><form action="./Gatway page.html">
+            <button><b>SUBMIT</b></button>
+            </form></center></div>
+    
+    <!-- BACK BUTTON -->
+        <div><center><form action="./Bus avail page.html">
+            <br>
+            <button><b>BACK</b></button>
+        </form></center></div>
+
+    </div>
+</body>
+</html>

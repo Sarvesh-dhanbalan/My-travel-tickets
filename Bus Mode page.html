@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TRAVEL TICKET|BUS</title>
+    <center><img class="logoimg" src="./Source/PIC/Logo.png" alt="Logo" width="200px" height="200px"></center>
+<!-- StyleSheet CSS -->
+    <style>
+        button{
+            background-color:skyblue;
+        }
+        body{
+            background-image: url(./Source/PIC/20856827_6346166.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .all{
+            align-items: center;
+            border: 2px black solid;
+            height: 550px;
+            width: 500px;
+            border-radius: 15px;
+            background: linear-gradient(to top,rgba(245, 242, 242, 0.5)50%,rgba(245, 243, 243, 0.5)50%);
+            border-radius: 15px;
+            position: relative;
+            left: 35%;
+        }
+
+        td{
+            padding: 8px;
+        }
+
+        button{
+            font-weight: bolder;
+            font-family: 'Times New Roman';
+            width: 290px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(116, 197, 224);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(4, 191, 253);
+        }
+
+        .I1,.I2,.I3,.I4{
+            height: 40px;
+            width: 290px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div><center><form class="form1" action="./Bus avail page.html">
+    <br><br>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="">FROM</label></td>
+                <td>
+                    <input class="I1" type="search" list="FROM" placeholder=" FROM">
+                    <datalist id="FROM"><!-- To make a autocomplete feature  -->
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kanyakumari">Kanyakumari</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Vellore">Vellore</option>
+                        <option value="Nagapattinam">Nagapattinam</option>
+                        <option value="Villupuram">Villupuram</option>
+                        <option value="Kumbakonam">Kumbakonam</option>
+                        <option value="Thanjavur">Thanjavur</option>
+                        <option value="Trichy">Trichy</option>
+                        <option value="Rameshwaram">Rameshwaram</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">TO</label></td>
+                <td>
+                    <input class="I2" type="search" list="FROM" placeholder=" TO">
+                    <datalist id="FROM">
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kanyakumari">Kanyakumari</option>
+                        <option value="Pondicherry">Pondicherry</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madurai">Madurai</option>
+                        <option value="Vellore">Vellore</option>
+                        <option value="Nagapattinam">Nagapattinam</option>
+                        <option value="Villupuram">Villupuram</option>
+                        <option value="Kumbakonam">Kumbakonam</option>
+                        <option value="Thanjavur">Thanjavur</option>
+                        <option value="Trichy">Trichy</option>
+                        <option value="Rameshwaram">Rameshwaram</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><Label>Date & Time</Label></td>
+                <td><input class="I3" type="datetime-local"></td>
+            </tr>
+            <tr>
+                <td><label for="Num">No of <br>passengers</label></td>
+                <td><input class="I4" type="number" name="Num"></td>
+            </tr>
+            <tr>
+                <td><label for="Class">CLASS</label></td>
+                <td><input type="radio" name="class">NON-AC Sleeper 
+                    <input type="radio" name="class">NON-AC Seat <br>
+                    <input type="radio" name="class">AC Sleeper
+                    <input type="radio" name="class">AC Seat <br>
+                    <input type="radio" name="class">ALL CLASS
+            </tr>
+            <br>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <button><b>SEARCH BUS</b></button>
+</center></form></div>
+<br>
+<div>
+    <center><form action="./Traval mode page.html">
+        <button><b>BACK</b></button>
+    </form></center>
+</div>
+</div>
+</body>
+</html>

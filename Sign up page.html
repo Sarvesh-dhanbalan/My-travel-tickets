@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY TRAVEL TICKET|Sign up</title>
+    <center><img class="logoimg" src="./Source/PIC/Logo.png" alt="Logo" width="200px" height="200px"></center>
+
+
+    <style>
+        button{
+            background-color:skyblue;
+        }
+        body{
+            background-image: linear-gradient(to bottom right, rgb(11, 163, 245), rgb(139, 226, 121));
+            background-size: 100% 250%;
+            background-repeat: no-repeat;
+        }
+
+        .overall{
+            border: 2px black solid;
+            height: 500px;
+            width: 500px;
+            border-radius: 15px;
+            background: linear-gradient(to top,rgba(245, 242, 242, 0.5)50%,rgba(245, 243, 243, 0.5)50%);
+            border-radius: 15px;
+            position: relative;
+            left: 35%;
+
+        }
+        button{
+            font-weight: bolder;
+            font-family: 'Times New Roman';
+            width: 290px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(116, 197, 224);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: rgb(4, 191, 253);
+        }
+        input{
+            border: none;
+            border-radius: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+   <div class="overall"><center>
+        <form action="./index.html">
+            <br><br>
+            <h2>Signup</h2>
+            <!-- Sign up page  -->
+            <table>
+                <h5>please fill in this form to create an account</h5>
+                <tbody>
+                    <tr>
+                        <td>First name </td>
+                        <td><input type="text" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Last name </td>
+                        <td><input type="text" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="Gender">Male <br>
+                            <input type="radio" name="Gender">Female <br>
+                            <input type="radio" name="Gender">Other
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td>Re-Password</td>
+                        <td><input type="password" placeholder="Re-Password"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number </td>
+                        <td><input type="number" placeholder="Phone Number "></td>
+                    </tr>
+                        <td colspan="2"><input type="checkbox"> By creating an account you agree to our <a href="https://www.redbus.in/info/termscondition" target="_blank">Term & Privacy </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button><b>Signup</b></button>
+        </form>
+    </center></div>
+</body>
+</html>

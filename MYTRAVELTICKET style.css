@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./Source/PIC/bgimg1.jpg);
+    /*background-image: url(./Source/PIC/pexels-alex-azabache-3757144.jpg);*/
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.welcome{
+    text-align: center;
+    padding: 10px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 25px;
+}
+.Loginbtn{
+    cursor:pointer;
+}
+.content{
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 15px;
+    align-items: center;
+    padding: 25px;
+    width: 300px;
+    height: 400px;
+    position: relative; 
+    left: 40%;
+}
+.login{
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+
+}
+.form{
+    padding: 10px;
+    align-items: center;
+
+}
+.input1{
+    margin-bottom: 10px;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input2{
+    margin-bottom: 10px;
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.checkbox{
+    margin-top: 10px;
+    
+}
+
+.rem{
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.Loginbtn{
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    width: 290px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(116, 197, 224);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.Loginbtn:hover{
+    background-color: rgb(4, 191, 253);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a1{
+    font-weight: bolder;
+    padding-right: 5px;
+    text-decoration: none;
+
+}
+.A1{
+    font-weight: bolder;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.signup{
+    color: silver;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+
